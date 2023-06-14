@@ -1,0 +1,27 @@
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* nuj care e diferenta,arata la fel face altceva */
+
+/* .sidebarRow :hover {
+    background-color: lightgray;
+    border-radius: 10px;
+} */
+.sidebarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sidebar h4 {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebarRow .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: #2e81f4;
+}
